@@ -16,20 +16,22 @@ body{
 }
 .box{
     padding: 10px;
+    width: vw;
+    height: vh;
 }
 .div1{
-    height: 450px;
     width: 200px;
+    height: 460px;
     display: inline-block;
     width: 350px;
-    background-color:  rgb(212, 20,20);
+    background-color:  #ce1212;
     color: white;
-    margin-left: 30px;
+    margin-left: 70px;
 }
 
 .div2{
     text-align: center;
-    height: 450px;
+    height: 460px;
     width: 230px;
     display: inline-block;
     vertical-align: top;
@@ -51,9 +53,9 @@ body{
    font-size: 20px;
    font-weight: 400;
    margin-top: 35px;
-   margin-bottom: 20px;
+   margin-bottom: 40px;
    border-radius: 20px;
-   background-color:rgba(254, 234, 234, 0.265);
+   background-color:rgba(254, 234, 234, 0.260);
    width: 180px;
    padding: 10px;
    text-align: center;
@@ -66,9 +68,9 @@ body{
 .icon1>i{
     font-size:30px;
     border-radius: 50%;
-    background-color:rgba(212, 20, 20, 0.09);
+    background-color:rgba(212, 20, 20, 0.07);
     padding: 20px;
-    color: rgb(212, 20,20);
+    color: #ce1212;
     transition: 0.4s ease;
     margin-top:150px;
 }
@@ -83,9 +85,9 @@ body{
 }
 .hov:hover{
     background-color: white;
-    color:  rgb(212, 20,20);
+    color: #ce1212;
 }
 .div2:hover>.icon1>i{
-    background-color:  rgb(212, 20,20);
+    background-color:  #ce1212;
     color: white;
 }
