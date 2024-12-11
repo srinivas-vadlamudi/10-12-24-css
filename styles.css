@@ -61,6 +61,7 @@ body{
    text-align: center;
    transition: 0.4s linear;
    margin-left: 22%;
+   cursor: pointer;
 }
 .icon1{
     padding-top:80px;
